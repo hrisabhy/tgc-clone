@@ -88,6 +88,8 @@ html, body {
     transition: background-color 0.3s ease;
 }
 
+/* Hero Banner */
+
 #page1 {
     min-height: 100vh;
     width: 100%;
@@ -128,4 +130,93 @@ html, body {
     border-radius: 50%;
     opacity: 0;
     scale: 0;
+}
+
+/* Product Section */
+
+#page2 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 3vw 1vw;
+    justify-content: space-between;
+}
+
+#page2 .elem {
+    height: 100%;
+    width: 30%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2 .elem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.1;
+}
+
+#page2 .elem .dets{
+    position: absolute;
+    will-change: transform;
+    opacity: 1;
+}
+
+#page2 .elem .dets .dets-info{
+    background-color: #f5dfcf;
+    padding: 0 32px;
+    width: 303px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dets .container{
+    background-color: #f5dfcf;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+    padding-top: 50px;
+    z-index: -1;
+    transition: height 0.25s cubic-bezier(0.22, 0.57, 0.12, .96);
+    will-change: height;
+}
+
+#page2 .elem .dets .container .listing{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container .listing .list-elem img{
+    height: 118px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+#duobook{
+    transform: scale(1.4);
+    margin-bottom: 41px;
+}
+
+.container .listing .list-elem p{
+    font-size: 12px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.elem .dets:hover .container{
+    height: auto ;
 }
