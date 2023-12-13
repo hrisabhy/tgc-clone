@@ -297,3 +297,88 @@ html, body {
     font-weight: 100;
     font-size: 14px;
 }
+
+/* Page 4 */
+
+#page4 {
+    min-height: 100vh;
+    width: 100%;
+}
+
+#page4 #thankyou{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120vh;
+    justify-content: flex-start;
+}
+
+#page4 #thankyou h2 {
+    font-size: 72px;
+    text-align: center;
+    font-family: 'futura';
+    width: 1177px;
+    line-height: 70px;
+    margin: 115px 0px;
+}
+
+#page4 #thankyou button {
+    padding: 20px 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#page4 #thankyou p {
+    text-align: center;
+    margin: 25px 0px;
+}
+
+#page4 #impact {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#impact #images {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+#page4 #impact img {
+    height: 90%;
+    width: 47%;
+    object-fit: cover;
+}
+
+#impact-para {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin-top: 40px;
+}
+
+#impact-para h2 {
+    font-family: 'futura';
+    margin-bottom: 35px;
+}
+
+#impact-para p {
+    width: 75%;
+    margin-bottom: 35px;
+    line-height: 21px;
+}
+
+#impact-para a {
+    color: #000;
+}
