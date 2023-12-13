@@ -382,3 +382,82 @@ html, body {
 #impact-para a {
     color: #000;
 }
+
+/* Footer */
+
+#page5 {
+    min-height: 100vh;
+}
+
+#page5 #footer{
+    margin-top: 150px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#footer #connect{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 5px;
+}
+
+#footer #connect p, #nitty p{
+    margin-bottom: 18px;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+#footer #connect a, #nitty a{
+    font-size: 17px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#footer #logo{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer #logo img {
+    height: 270px;
+    width: 270px;
+    object-fit: cover;
+}
+
+#footer #logo #copyright {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer #logo #copyright a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.5;
+}
+
+#footer #nitty{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+#page5 #footer-info{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 90px;
+    text-align: center;
+}
+
+#page5 #footer-info p{
+    font-size: 18px;
+    line-height: 25px;
+}
