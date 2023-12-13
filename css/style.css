@@ -220,3 +220,38 @@ html, body {
 .elem .dets:hover .container{
     height: auto ;
 }
+
+/* USP Section */
+#usp {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px;
+    margin-bottom: 150px;
+}
+
+#usp h2 {
+    font-size: 56px;
+    font-family: futura;
+    width: 784px;
+}
+
+#usp .paragraph {
+    width: 351px;
+    margin-right: 100px;
+    padding: 10px;
+    line-height: 23px;
+    letter-spacing: 0.8px;
+}
+
+#usp .paragraph p {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+#usp .paragraph a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 100;
+    font-size: 14px;
+    text-decoration: underline;
+}
