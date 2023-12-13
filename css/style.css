@@ -1,0 +1,28 @@
+/* Base */
+@font-face {
+    font-family: futura;
+    src: url(../assets/Futura-Bold.ttf);
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(../assets/HelveticaNowText-Regular.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica';
+}
+
+*::selection {
+    color: white;
+    background-color: black;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
